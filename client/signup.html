@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <!-- Font Awesome -->
+     <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+     integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+     crossorigin="anonymous"
+     referrerpolicy="no-referrer"
+   />
+    <title>Signup Medicine Tracker Webapp</title>
+    <link href="style.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-heading">
+        <div class="nav-logo">
+          <img
+            src="./images/6673737_doctor_drug_health_healthcare_hospital_icon.png"
+            alt="logo"
+          />
+        </div>
+        <div class="nav-toggle">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+      <div class="nav-links">
+        <ul>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="index.html">Home</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="main-con">
+
+    <form action="" class="form">
+      <h1 class="login-page-header">Signup</h1>
+      <input type="text" placeholder="username" class="username" />
+      <input type="text" placeholder=" password" class="password" />
+      <input type="text" id="dob" name="dob" placeholder="DOB" />
+      <input type="text" id="address" name="address" placeholder="address" />
+      <button type="submit" class = 'login-submit-btn'>submit</button>
+    </form>
+    
+    <p class="bottom-text">Already a member yet? <a href="login.html">Login</a></p>
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="signup.js"></script>
+  </body>
+</html>

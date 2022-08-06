@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--created login links  -->
+    <link href="style.css" type="text/css" rel="stylesheet" />
+    <title>Login Page</title>
+    <body>
+      <nav>
+        <div class="nav-heading">
+          <div class="nav-logo">
+            <img
+              src="./images/6673737_doctor_drug_health_healthcare_hospital_icon.png"
+              alt="logo"
+            />
+          </div>
+          <div class="nav-toggle">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+        <div class="nav-links">
+          <ul>
+            <li><a href="signup.html">Signup</a></li>
+            <li><a href="index.html">Home</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="main-con">
+        <form action="" class="form">
+          <h1 class="error"></h1>
+          <h1 class="login-page-header">Login</h1>
+          <!-- created login, password and submit-->
+          <input type="text" placeholder="username" class="username" />
+          <input type="password" placeholder=" password" class="password" />
+          <button type="submit" class="login-submit-btn">submit</button>
+        </form>
+        <p class="bottom-text">
+          Not a member yet? <a href="signup.html">Sign up</a>
+        </p>
+        <!-- <div class="btn-container">
+          <button><a href="signup.html">Sign Up</a></button>
+        </div> -->
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+      <script src="login.js"></script>
+    </body>
+  </head>
+</html>

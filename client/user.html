@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>User Profile</title>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nuosu+SIL&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- page header -->
+
+    <nav>
+      <div class="nav-heading">
+        <div class="nav-logo">
+          <img
+            src="./images/6673737_doctor_drug_health_healthcare_hospital_icon.png"
+            alt="logo"
+          />
+        </div>
+        <div class="nav-toggle">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+      <div class="nav-links">
+        <ul>
+          <li><button class="logout-btn">Logout</button></li>
+          <li><a href="index.html">Home</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <h1 class="user-page-heading">User Profile</h1>
+
+    <h2 class="name"></h2>
+    <!-- create medicine form -->
+    <form action="" class="medicine-form">
+      <div>
+        <label for="medicinename">Medicine Name:</label>
+        <input type="text" class="medicine-name" />
+      </div>
+      <div>
+        <label for="fname">Dosage:</label>
+        <input type="number" class="dosage" />
+      </div>
+      <div>
+        <label for="frequency">Frequency:</label>
+        <input type="number" class="frequency" />
+      </div>
+      <button type="submit" class="submit-btn">Submit</button>
+    </form>
+    <form></form>
+
+    <!-- show all medicine section -->
+    <section>
+      <h3>User Medicine</h3>
+      <div class="user-med"></div>
+      <!-- User Information:<output name="result"></output> -->
+    </section>
+
+    <section class="medicine-table-section">
+      <table>
+        <thead>
+          <tr>
+            <th>MEDICINE NAME</th>
+            <th>FREQUENCY</th>
+            <th>DOSAGE</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody class="table-body">
+          <!-- <tr>
+            <td>cough</td>
+          </tr> -->
+        </tbody>
+      </table>
+    </section>
+  </body>
+  <script src="user.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</html>
